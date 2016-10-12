@@ -1,0 +1,59 @@
+
+<!--Main Container that holds everything in an absolute position to hold everything in place in the UI-->
+<!--All html coding for your project should be done inside this "main-container"-->
+<!--Feel free to add to, delete or edit any or all of the html that is currently inside this container-->
+<!--Just be sure to keep the css that defines the styling for the "main-container"-->
+<div id="main-container">
+<!--backgroundImage: all other gameplay elements are children of this div.-->
+<div class="container" id="game-container" style="overflow:hidden;">
+<div id="images">
+<span class="img" id="img1"></span>
+<span class="img" id="img2"></span>
+</div>
+<span class="dim blink1" id="centerdim"></span>
+<div class="topui"></div>
+<div class="bottomui"></div>
+<div id="tutorials">
+<span class="dim blink2"></span>
+<span class="dim dimtop"></span>
+<span class="dim dimbottom"></span>
+<span class="text chooseone" id="chooseone">Choose One!</span>
+</div>
+<span class="text" id="text"></span>
+<div id="results" style="display:none;">
+<span class="line lineright" id="lineright"></span>
+<span class="percentage percentright" id="percentright"></span>
+<span class="line lineleft" id="lineleft"></span>
+<span class="percentage percentleft" id="percentleft"></span>
+<span class="check checkright" id="check"></span>
+</div>
+<span class="tapright" id="tapright" onclick="allowright();"></span>
+<span class="tapleft" id="tapleft" onclick="allowleft();"></span>
+</div>
+<!-- OUTRO SPECIFIC HTML -->
+<!--backgroundImage: all other outro elements are children of this div.-->
+<div class="container" id="outro-container">
+<!--Put all background animation (all animation that exists behind the buttons but in front of the background... ex: snow, rain, or bubbles) inside this empty div-->
+<div id="animation-container">
+<!-- uncomment the following code for midcore:
+				<div id="end-scenario"></div> -->
+</div>
+<!--ThanksForPlaying: we will assign a class and Id to be able to change it between screens-->
+<div id="bottom-button">
+</div>
+<!--DLbutton: margin: auto; allows the button to be centered automatically!-->
+<div id="top-button">
+</div>
+<!--mNectar Branding-->
+<div id="mnectarbranding">
+</div>
+<!--ClickURL that sends the user to the landing page-->
+<div id="dl-div" onclick="clickDownload();">
+</div>
+</div>
+</div>
+
+<link rel="stylesheet" href="assets/GameCSS.css">
+<link rel="stylesheet" href="assets/OutroCSS.css">
+<script src="assets/OutroJS.js"></script>
+<script src="assets/GameJS.js"></script>

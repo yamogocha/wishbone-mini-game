@@ -1,0 +1,401 @@
+.topui{
+	background-image:url("topui_iPhonePort.jpg");
+	position:absolute;
+	width:320px;
+    height:36px;
+	left:0;
+	top:0;
+}
+
+.bottomui{
+	background-image: url("bottomui_iPhonePort.png");
+    position: absolute;
+	width: 320px;
+    height:40px;
+    left: 0;
+    top: 529px;
+}
+
+.img{
+    position: absolute;
+    width: 320px;
+    height: 377px;
+    left: 0;
+    top:93px;
+}
+
+.dim{
+    background: rgba(0, 0, 0, 0.6);
+    position: absolute;
+    width:320px;
+    left: 0;
+}
+
+.dimtop{
+    height:93px;
+    top: 0; 
+}
+
+.dimbottom{
+    height:99px;
+    top:470px;
+}
+
+.blink1{
+    width:160px;
+    height:377px;
+    top:93px;
+    -webkit-animation: blink 1s infinite .5s;
+}
+
+.blink2{
+    width:160px;
+    height:377px;
+    top:93px;
+    left:160px;
+    -webkit-animation: blink 1s infinite;
+}
+
+.appear{
+    height:377px;
+    top:93px;
+    opacity:0;
+    -webkit-animation: appear 1s linear;
+}
+
+.text{
+    font-family: Lucida;
+    font-size: 15px;
+    font-weight: bold;
+    color: white;
+    text-align: center;
+    top:44px;
+    width: 320px;
+    position: absolute;
+    text-shadow: 0 0 8px black;
+    letter-spacing: 1.2px;
+    line-height:22px;
+}
+
+.black{
+    color: black;
+    text-shadow: 0 0 0px;
+}
+
+.appeartext{
+    opacity:0;
+    -webkit-animation: appear 10s linear .5s;
+}
+
+.chooseone{
+    top: 260px;
+    font-size:28px;
+    text-shadow: 0 3px 1px black;
+}
+
+.images{
+    position: absolute;
+    width: 320px;
+    height: 568px;
+    left: 0;
+    top: 0px;
+}
+
+.percentage{
+	position:absolute;
+	width:50px;
+	font-size:16px;
+	color:white;
+	text-shadow: 1px 1px 2px black;
+    font-family: sans-serif;
+    font-weight: lighter;
+    opacity:0;
+    -webkit-animation: appear 1s linear;
+}
+
+.percentright{
+    left: 226px;
+}
+
+.percentleft{
+	left: 66px;
+}
+
+.line{
+	position: absolute;
+    border: 2px solid;
+    bottom: 98px;
+    -webkit-transform-origin-y: 100%;
+    -webkit-transform: scaleY(0);
+    -webkit-animation:moveup .3s linear forwards;
+}
+
+.lineright{
+    left: 238px;
+}
+
+.lineleft{
+    left: 78px;
+}
+
+.check{
+    background-image:url("check_iPhonePort.png");
+    position: absolute;
+    width: 80px;
+    height: 82px;
+    top:240px;
+    -webkit-animation: bounce .2s;
+}
+
+.checkright{
+	left: 204px;
+}
+
+.checkleft{
+    left: 44px;
+}
+
+.tapright{
+	position:absolute;
+    width: 158px;
+    height: 490px;
+	left:160px;
+	top:0px;
+}
+
+.tapleft{
+	position:absolute;
+    width: 158px;
+    height: 490px;
+    left: 0px;
+    top: 0px;
+}
+
+@font-face{
+    font-family: Lucida;
+    src: url(LucidaGrande.otf);
+}
+
+@-webkit-keyframes blink {
+    50%{opacity:0;}
+}
+
+@-webkit-keyframes appear {
+    5%, 100%{opacity:1;}
+}
+
+@-webkit-keyframes moveup {
+	100% {-webkit-transform: scaleY(1);}
+}
+
+@-webkit-keyframes bounce {
+    50%{-webkit-transform:scale(1.5);}
+}
+
+@-webkit-keyframes slideup{
+    0% {-webkit-transform:translateY(462px);}
+}
+
+@-webkit-keyframes slideaway{
+    100% {-webkit-transform:translateY(-462px);}
+}.topui{
+    background-image:url("topui_iPhonePort.jpg");
+    position:absolute;
+    width:320px;
+    height:36px;
+    left:0;
+    top:0;
+}
+
+.bottomui{
+    background-image: url("bottomui_iPhonePort.png");
+    position: absolute;
+    width: 320px;
+    height:40px;
+    left: 0;
+    top: 529px;
+}
+
+.img{
+    position: absolute;
+    width: 320px;
+    height: 377px;
+    left: 0;
+    top:93px;
+}
+
+.dim{
+    background: rgba(0, 0, 0, 0.6);
+    position: absolute;
+    width:320px;
+    left: 0;
+}
+
+.dimtop{
+    height:93px;
+    top: 0; 
+}
+
+.dimbottom{
+    height:99px;
+    top:470px;
+}
+
+.blink1{
+    width:160px;
+    height:377px;
+    top:93px;
+    -webkit-animation: blink 1s infinite .5s;
+}
+
+.blink2{
+    width:160px;
+    height:377px;
+    top:93px;
+    left:160px;
+    -webkit-animation: blink 1s infinite;
+}
+
+.appear{
+    height:377px;
+    top:93px;
+    opacity:0;
+    -webkit-animation: appear 1s linear;
+}
+
+.text{
+    font-family: Lucida;
+    font-size: 15px;
+    font-weight: bold;
+    color: white;
+    text-align: center;
+    top:44px;
+    width: 320px;
+    position: absolute;
+    text-shadow: 0 0 8px black;
+    letter-spacing: 1.2px;
+    line-height:22px;
+}
+
+.black{
+    color: black;
+    text-shadow: 0 0 0px;
+}
+
+.appeartext{
+    opacity:0;
+    -webkit-animation: appear 10s linear .5s;
+}
+
+.chooseone{
+    top: 260px;
+    font-size:28px;
+    text-shadow: 0 3px 1px black;
+}
+
+.images{
+    position: absolute;
+    width: 320px;
+    height: 568px;
+    left: 0;
+    top: 0px;
+}
+
+.percentage{
+    position:absolute;
+    width:50px;
+    font-size:16px;
+    color:white;
+    text-shadow: 1px 1px 2px black;
+    font-family: sans-serif;
+    font-weight: lighter;
+    opacity:0;
+    -webkit-animation: appear 1s linear;
+}
+
+.percentright{
+    left: 226px;
+}
+
+.percentleft{
+    left: 66px;
+}
+
+.line{
+    position: absolute;
+    border: 2px solid;
+    bottom: 98px;
+    -webkit-transform-origin-y: 100%;
+    -webkit-transform: scaleY(0);
+    -webkit-animation:moveup .3s linear forwards;
+}
+
+.lineright{
+    left: 238px;
+}
+
+.lineleft{
+    left: 78px;
+}
+
+.check{
+    background-image:url("check_iPhonePort.png");
+    position: absolute;
+    width: 80px;
+    height: 82px;
+    top:240px;
+    -webkit-animation: bounce .2s;
+}
+
+.checkright{
+    left: 204px;
+}
+
+.checkleft{
+    left: 44px;
+}
+
+.tapright{
+    position:absolute;
+    width: 158px;
+    height: 490px;
+    left:160px;
+    top:0px;
+}
+
+.tapleft{
+    position:absolute;
+    width: 158px;
+    height: 490px;
+    left: 0px;
+    top: 0px;
+}
+
+@font-face{
+    font-family: Lucida;
+    src: url(LucidaGrande.otf);
+}
+
+@-webkit-keyframes blink {
+    50%{opacity:0;}
+}
+
+@-webkit-keyframes appear {
+    5%, 100%{opacity:1;}
+}
+
+@-webkit-keyframes moveup {
+    100% {-webkit-transform: scaleY(1);}
+}
+
+@-webkit-keyframes bounce {
+    50%{-webkit-transform:scale(1.5);}
+}
+
+@-webkit-keyframes slideup{
+    0% {-webkit-transform:translateY(462px);}
+}
+
+@-webkit-keyframes slideaway{
+    100% {-webkit-transform:translateY(-462px);}
+}
